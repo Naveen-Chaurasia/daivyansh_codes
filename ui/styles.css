@@ -1,14 +1,18 @@
 
+* {
+    box-sizing: content-box;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height:auto;
 }
 
 /* Style the header */
 header {
     background-color: #666;
     padding: 10px;
-    height: 90px;
+    height: 85px;
     align-content: start;
     vertical-align:central;
     text-align: center;
@@ -20,7 +24,7 @@ header {
 nav {
     float: left;
     width: 10%;
-    height: 91%;
+    height: 90%;
     /* height: 300px;*/ /* only for demonstration, should be removed */
     background: #ccc;
     padding-top: 50px;
@@ -36,9 +40,9 @@ nav ul {
 article {
     float: left;
     padding: 20px;
-    width: 86%;
+    width: 86.5%;
     background-color: #f1f1f1;
-    height: 93%;
+    height: 92%;
     /* height: 300px; */ /* only for demonstration, should be removed */
 }
 
