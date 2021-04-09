@@ -1,54 +1,54 @@
 <html>
 <title>Product Web app </title>
 <head>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>
-        <table border="0" height="100%" width="100%">
-            <tr height="1%" bgcolor="grey">
-                <td colspan="3">
-                    <embed type="text/html" src="header.html" height="100%" width="100%">
-                </td>
-            </tr>
-            <tr>
-                <td width="10%" bgcolor="yellow" valign="top">
-                    <embed type="text/html" src="left_nav.html" height="100%" width="100%">
-                </td>
-                <td colspan="2" valign="top">
-                    <p align=center>
-                        <table width="80%" border="1">
-                            <tr>
-                                <th>S.No</th>
-                                <th>Order#</th>
-                                <th>User</th>
-                                <th>Order Date</th>
-                                <th>Status</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><a href="#">1234</a></td>
-                                <td>Daivyansh</td>
-                                <td>07-Apr-2021 16:15:30</td>
-                                <td>Dispatched</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><a href="#">1235</a></td>
-                                <td>Naveen</td>
-                                <td>07-Apr-2021 16:16:31</td>
-                                <td>Ordered</td>
-                            </tr>
+    <header>
+        <embed type="text/html" src="header.html" width="100%">
+    </header>
+    <section>
+        <nav>
+            <embed type="text/html" src="left_nav.html" width="100%">
+        </nav>
 
-                        </table>
-                        
-                    </p>
-                </td>
-            </tr>
-            <tr height="10%" bgcolor="grey">
-                <td colspan="3">Footer</td>
-            </tr>
-        </table>
-    </p>
+        <article>
+            <p align=center>
+                <table width="80%" border="0">
+                    <tr>
+                        <th>S.No</th>
+                        <th>Order#</th>
+                        <th>User</th>
+                        <th>Order Date</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="#">1234</a></td>
+                        <td>Daivyansh</td>
+                        <td>07-Apr-2021 16:15:30</td>
+                        <td>Dispatched</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><a href="#">1235</a></td>
+                        <td>Naveen</td>
+                        <td>07-Apr-2021 16:16:31</td>
+                        <td>Ordered</td>
+                    </tr>
+
+                </table>
+
+            </p>
+
+        </article>
+    </section>
+    <footer>
+        <embed type="text/html" src="footer.html" width="100%">
+    </footer>
+
 </body>
 
+</html>
